@@ -1,0 +1,8 @@
+rootProject.name = 'gradle_boot'
+include 'alex_web'
+include 'alex_service'
+include 'alex_dao'
+include 'alex_pojo'
+include 'alex_util'
+
+

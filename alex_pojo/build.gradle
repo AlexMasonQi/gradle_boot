@@ -1,0 +1,3 @@
+dependencies {
+    compile project(":alex_util")
+}
