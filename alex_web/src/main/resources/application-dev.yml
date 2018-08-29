@@ -27,9 +27,9 @@ spring:
       max-file-size: 100Mb
       max-request-size: 100Mb
   datasource:
-    url: jdbc:mysql://47.92.81.14:3306/offcn_audio?useUnicode=true&characterEncoding=UTF-8&useSSL=true&allowMultiQueries=true&autoReconnect=true&tinyInt1isBit=false
-    username: root
-    password: Offcn#wxsyb!(1sTudEnt
+    url: jdbc:mysql://localhost:3306/<db_name>?useUnicode=true&characterEncoding=UTF-8&useSSL=true&allowMultiQueries=true&autoReconnect=true&tinyInt1isBit=false
+    username: <db_user>
+    password: <db_password>
     driver-class-name: com.mysql.cj.jdbc.Driver
     tomcat:
       initial-size: 3
